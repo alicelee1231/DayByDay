@@ -6,7 +6,6 @@ public class Main {
  
 		int N = in.nextInt();
 		String a = in.next();
-		in.close();
 		
 		int sum = 0;
         
