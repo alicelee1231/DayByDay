@@ -1,5 +1,11 @@
 function solution(price, money, count) {
-    var answer = -1;
+    let tt = 0
+    let i = 1
 
-    return answer;
+    while( i <= count){
+       tt += price * i
+        i++
+    }
+    // return Math.max(tt - money, 0);
+    return tt - money > 0 ? tt- money : 0
 }
